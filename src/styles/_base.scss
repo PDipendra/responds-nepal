@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+
+:root {
+    /* Colors */
+    --color-white: #fff;
+    --color-black: #000;
+    --color-text: #5a3601;
+
+    --color-dark-accent: #067077;
+    --color-light-accent: #fdbe33;
+
+
+    /* Font */
+    --font-size-base: 1rem;             // 16px
+    --font-size-tiny: 0.75rem;          // 12px
+    --font-size-tiny-alt: 0.8125rem;    // 13px
+    --font-size-small: 0.875rem;        // 14px
+    --font-size-normal: 1.125rem;       // 18px
+    --font-size-normal-alt: 1.25rem;    // 20px
+    --font-size-normal-lg: 1.375rem;    // 22px
+    --font-size-medium: 1.5rem;         // 24px
+    --font-size-medium-alt: 1.625rem;   // 26px
+    --font-size-large: 1.875rem;        // 30px
+    --font-size-large-alt: 2rem;        // 32px
+    --font-size-header: 3.125rem;        // 50px
+    --font-size-header-alt: 4.0625rem;   // 65px
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+    
+    @media only screen and (max-width: 991px) {
+        font-size: 14px;
+    }
+
+    @media only screen and (max-width: 719px) {
+        font-size: 13px;
+    }
+
+    @media only screen and (max-width: 479px) {
+        font-size: 12px;
+
+        input {
+            font-size: 16px !important; // For mobile devices
+        }
+    }
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+body {
+    background-color: var(--color-white);
+    color: var(--color-text);
+}

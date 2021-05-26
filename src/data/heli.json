@@ -1,0 +1,102 @@
+[
+    {
+        "sn": "1",
+        "name": "Mr Ramesh Bajracharya",
+        "status": "Manager",
+        "airlines": "Simrik Air",
+        "address": "Subidhanagar",
+        "tel": "4155341",
+        "cell": "9841480556",
+        "email": "operation@simrikair.com.np"
+    },
+    {
+        "sn": "2",
+        "name": "Mr. Rom Shrestha",
+        "status": "CEO",
+        "airlines": "Manang Air",
+        "address": "Minbhawan",
+        "tel": "4115985/86",
+        "cell": "9851064186",
+        "email": "ceo@manangair.com.np"
+    },
+    {
+        "sn": "3",
+        "name": "Mr. Binod Thapa",
+        "status": "Manager",
+        "airlines": "Fishtail Air",
+        "address": "Sinamangal",
+        "tel": "4112217/30",
+        "cell": "9851062087",
+        "email": "operation@summitheli.com"
+    },
+    {
+        "sn": "4",
+        "name": "Mr. Pradip Gautam",
+        "status": "Manager",
+        "airlines": "Heli Everest",
+        "address": "Tinkunee",
+        "tel": "4112353",
+        "cell": "9851026185",
+        "email": "operation@helieverest.com"
+    },
+    {
+        "sn": "5",
+        "name": "Mr. Nima Nuru Sherpa",
+        "status": "EC",
+        "airlines": "Altitude Air",
+        "address": "Sinamangal",
+        "tel": "4116666",
+        "cell": "9851022001",
+        "email": "altitude@altitudeheli.com"
+    },
+    {
+        "sn": "6",
+        "name": "Mr. Novel Raj Lawat",
+        "status": "Manager",
+        "airlines": "Prabhu Helicopter",
+        "address": "Kamaladi",
+        "tel": "4169069",
+        "cell": "9801120379",
+        "email": "novel@prabhuhelicopter.com"
+    },
+    {
+        "sn": "7",
+        "name": "Mr. Barun Gawali",
+        "status": "Manager",
+        "airlines": "Kailash Helicopter Services",
+        "address": "Airport",
+        "tel": "9801908320",
+        "cell": "9801908320",
+        "email": "operation@kailashheli.com"
+    },
+    {
+        "sn": "8",
+        "name": "Mr. Bal Krishna Pandit",
+        "status": "Manager",
+        "airlines": "Air Dynasty",
+        "address": "Sinamangal",
+        "tel": "4497418",
+        "cell": "9851116362",
+        "email": "balkrish_17@hotmail.com"
+    },
+    {
+        "sn": "9",
+        "name": "Mr. Anil Manandhar",
+        "status": "Corporate Manager",
+        "airlines": "Shree airlines",
+        "address": "Sinamangal",
+        "tel": "4485200",
+        "cell": "9851026197",
+        "email": "anil.manandhar@shreeairlines.com"
+    },
+    {
+        "sn": "10",
+        "name": "Mr.D.B. Oli",
+        "status": "Manager",
+        "airlines": "Mountain Helicopter",
+        "address": "Sinamangal",
+        "tel": "4111031",
+        "cell": "9858022870",
+        "email": "gm@mtnhelicopters.com"
+    }
+]

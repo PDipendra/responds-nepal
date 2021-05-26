@@ -1,0 +1,26 @@
+.resultWrapper {
+    width: 100%;
+    border-top: 1px solid rgba(14, 163, 155, 0.1);;
+    padding-top: 1.5em;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-auto-rows: 1fr;
+
+    .resultCard {
+        height: 6.5em;
+        background-color: var(--color-white);
+        margin: 0.8em;
+        border-radius: 0.5em;
+        overflow: hidden;
+        border: 1px solid rgba(14, 163, 155, 0.1);
+
+        .cardContent {
+            padding: 1em 1.25em;
+        }
+
+        &:hover {
+            box-shadow: 0 5px 15px 0 rgba(14, 163, 155, 0.38);
+        }
+    }
+}

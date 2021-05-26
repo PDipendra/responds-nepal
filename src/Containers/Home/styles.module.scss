@@ -1,0 +1,121 @@
+.container {
+    padding-top: 1em;
+    min-height: 100vh;
+    position: relative;
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .logo {
+        font-size: 6em;
+        color: var(--color-dark-accent);
+    }
+
+    .joinBanner {
+        text-decoration: none;
+        position: absolute;
+        top: 0.5em;
+        right: 0.5em;
+        width: 5em;
+        background-color: crimson;
+        padding: 0.7em;
+        border-radius: 0.5em;
+        text-align: center;
+        color: var(--color-white);
+        font-size: var(--font-size-large);
+
+        &:hover {
+            background-color: rgb(204, 21, 58);
+        }
+
+        h5 {
+            font-size: var(--font-size-medium);
+        }
+    }
+
+    .title {
+        font-size: var(--font-size-header);
+        color:  var(--color-dark-accent);
+        margin-bottom: 0.1em;
+    }
+
+    .desc {
+        line-height: 1.35;
+        font-size: var(--font-size-base);
+        max-width: 85vh;
+    }
+
+    .question {
+        margin: 1em;
+    }
+
+    .tabs {
+        width: 70%;    
+    }
+
+    .contentWrapper {
+        width: 100%;
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        
+        .contentCard {
+            cursor: pointer;
+            border-radius: 0.5em;
+            height: 3em;
+            margin: 0.5em;
+            background-color: var(--color-dark-accent);
+            color: var(--color-white);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-size: var(--font-size-large);
+            
+            h5 {
+                text-align: center;
+                margin-top: 0.5em;
+                font-size: var(--font-size-normal);
+            }
+
+            &:hover {
+                box-shadow: 0 5px 15px 0 rgba(14, 163, 155, 0.38);
+            }
+        }
+    }
+
+    .socialLinks {
+        position: fixed;
+        top: 40%;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        font-size: 2.5em;
+
+        .lnIcon {
+            color: rgb(97, 90, 90);
+
+            &:hover {
+                color: rgb(19, 107, 134);
+            }
+        }
+
+        .fbIcon {
+            margin: 0.2em 0;
+            color: rgb(97, 90, 90);
+
+            &:hover {
+                color: #3b5998;
+            }
+        }
+
+        .twIcon {
+            color: rgb(97, 90, 90);
+
+            &:hover {
+                color: rgb(71, 175, 187);
+            }
+        }
+    }
+}

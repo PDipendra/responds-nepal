@@ -1,0 +1,39 @@
+.container {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    background-color: white;
+    
+    .contentCard {
+        text-decoration: none;
+        cursor: pointer;
+        border-radius: 0.5em;
+        height: 3em;
+        margin: 0.5em;
+        background-color: var(--color-dark-accent);
+        color: var(--color-white);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: var(--font-size-large);
+        
+        h5 {
+            text-align: center;
+            margin-top: 0.5em;
+            font-size: var(--font-size-normal);
+        }
+
+        &:hover {
+            box-shadow: 0 5px 15px 0 rgba(14, 163, 155, 0.38);
+        }
+    }
+}
+
+.activeNav {
+    background-color: crimson;
+}

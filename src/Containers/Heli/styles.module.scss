@@ -1,0 +1,33 @@
+.resultWrapper {
+    width: 100%;
+    border-top: 1px solid rgba(14, 163, 155, 0.1);;
+    padding-top: 1.5em;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 1fr;
+
+    .resultCard {
+        background-color: var(--color-white);
+        margin: 0.8em;
+        height: 15em;
+        border-radius: 0.5em;
+        overflow: hidden;
+        border: 1px solid rgba(14, 163, 155, 0.1);
+
+        .cardHeader {
+            height: 5em;
+            padding: 1em 1.25em;
+            background-color: rgb(10, 82, 82);
+            color: var(--color-white);
+        }
+
+        .cardContent {
+            padding: 1em 1.25em;
+        }
+
+        &:hover {
+            box-shadow: 0 5px 15px 0 rgba(14, 163, 155, 0.38);
+        }
+    }
+}
